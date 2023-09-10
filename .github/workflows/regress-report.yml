@@ -13,48 +13,48 @@ test-cases:
       Проверка оформления заказа пользователем
     status: pass
 
-    test-cases:
+test-cases:
   - summary: |
       Проверка фильтрации товара по названию
     status: pass
 
-  test-cases:
+test-cases:
   - summary: |
       Проверка фильтрации товара по цене
     status: pass  
 
-    test-cases:
+test-cases:
   - summary: |
       Проверка адаптивной верстки
     status: pass
 
-     test-cases:
+test-cases:
   - summary: |
       Проверка постраничного вывода
     status: pass
 
-    test-cases:
+test-cases:
   - summary: |
       Проверка продолжения работы на сайте после добавления товара в корзину
     status: pass
 
-    test-cases:
+test-cases:
   - summary: |
       Проверка удаления товара из корзины
     status: pass
 
-    test-cases:
+test-cases:
   - summary: |
       Проверка оформления заказа с переходом на страницу оплаты
     status: fail
 
-    test-cases:
+test-cases:
   - summary: |
         Проверка возможности совместимости с разными версиями браузеров
     status: pass
 
-    bugreports:
-  - summary: |
+bugreports:
+- summary: |
     В окне "заказ успешно оформлен" не работает крестик
   environment: |
     Safari   Версия 16.5.1 (18615.2.9.11.7)
@@ -70,7 +70,7 @@ test-cases:
   actual-result: |
     После нажатия на крестик в окне "заказ успешно оформлен" ничего не происходит
 
-    - summary: |
+- summary: |
     Цена в графе "до" имеет отрицательное значение
   environment: |
     Safari   Версия 16.5.1 (18615.2.9.11.7)
@@ -84,7 +84,7 @@ test-cases:
   actual-result: |
     Отрицательное значение в графе "цена" пункт "до"
 
-    summary: |
+- summary: |
     После обновления страницы товары возвращаются в корзину
   environment: |
     Safari   Версия 16.5.1 (18615.2.9.11.7)
@@ -101,7 +101,7 @@ test-cases:
   actual-result: |
     После обновления страницы товары возвращаются в корзину
 
-    summary: |
+- summary: |
     Нет единной фильтрации категории товара
   environment: |
     Safari   Версия 16.5.1 (18615.2.9.11.7)
@@ -115,7 +115,7 @@ test-cases:
   actual-result: |
     Фильтрация категорий товаров на каждой странице
 
-summary: |
+- summary: |
     Не меняется текст описания при смене языка
   environment: |
     Safari   Версия 16.5.1 (18615.2.9.11.7)
@@ -130,7 +130,7 @@ summary: |
   actual-result: |
     При смене языка на "русский" текст изменился частично
 
-summary: |
+- summary: |
     Отсутсвует сообщение "товар отсутствует"
   environment: |
     Safari   Версия 16.5.1 (18615.2.9.11.7)
@@ -144,7 +144,7 @@ summary: |
   actual-result: |
     При выборе отрицательного значения в поле "цена" ничего не происходит
 
-summary: |
+- summary: |
     Невозможно зарегистрироваться в магазине
   environment: |
     Safari   Версия 16.5.1 (18615.2.9.11.7)
