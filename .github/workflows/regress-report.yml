@@ -1,1 +1,68 @@
+test-cases:
+  - summary: |
+      Проверка работоспособности магазина
+    status: pass
 
+test-cases:
+  - summary: |
+      Проверка добавления товара в корзину
+    status: pass
+
+test-cases:
+  - summary: |
+      Проверка оформления заказа пользователем
+    status: pass
+
+    test-cases:
+  - summary: |
+      Проверка фильтрации товара по названию
+    status: pass
+
+  test-cases:
+  - summary: |
+      Проверка фильтрации товара по цене
+    status: pass  
+
+    test-cases:
+  - summary: |
+      Проверка адаптивной верстки
+    status: pass
+
+     test-cases:
+  - summary: |
+      Проверка постраничного вывода
+    status: pass
+
+    test-cases:
+  - summary: |
+      Проверка продолжения работы на сайте после добавления товара в корзину
+    status: pass
+
+    test-cases:
+  - summary: |
+      Проверка удаления товара из корзины
+    status: pass
+
+    test-cases:
+  - summary: |
+      Проверка оформления заказа с переходом на страницу оплаты
+    status: fail
+
+    test-cases:
+  - summary: |
+        Проверка возможности совместимости с разными версиями браузеров
+    status: pass
+
+    bugreports:
+  - summary: |
+      Короткое описание ошибки
+    environment: |
+      Ссылка на билд/коммит/версия ПО и всего окружения
+    steps-to-reproduce: |
+      Полный перечень шагов для воспроизведения, на каком шаге произошла ошибка
+    expected-result: |
+      Какой результат должен был быть без ошибки
+    actual-result: |
+      Какой результат получился на самом деле
+
+    
