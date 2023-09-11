@@ -1,11 +1,11 @@
+---
 name: Aleksei Mikhalev
 job: QA Engineer
 level: junior
 email: tsydenov.al@yandex.ru
 deskription: | 
 hexlet school student
-
-skills: 
+skills:
 - функциональное тестирование
 - кроссбраузерное тестирование
 - базовые методы ручного тестирования
